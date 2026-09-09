@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table{
+            
+            border-collapse: collapse;
+            text-align: center;
+            color: white;
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        th{
+            background-color: burlywood;
+            color: rgb(4, 97, 97);
+        }
+        
+    </style>
+</head>
+<body>
+    <table style="width: 100%;">
+        <colgroup>
+            <col span="2" style="background-color: blueviolet;" />
+        </colgroup>
+        <tr>
+            <th>Country</th>
+            <th>Country code</th>
+            <th>Country ppl</th>
+        </tr>
+        <tr>
+            <td>INDIA</td>
+            <td>IN</td>
+            <td>Indian</td>
+        </tr>
+        <tr>
+            <td>America</td>
+            <td>AM</td>
+            <td>American</td>
+        </tr>
+        <tr>
+            <td>IRAN</td>
+            <td>IR</td>
+            <td>Iranian</td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <th colspan="4" >name1</th>
+            <td>Aish</td>
+        </tr>
+        <tr>
+            <th>name2</th>
+            <td>Anj</td>
+        </tr>
+    </table>
+</body>
+</html>
